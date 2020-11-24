@@ -1,0 +1,61 @@
+.about {
+    min-height: 675px;
+    align-items: center;
+}
+
+.about__text {
+    max-width: 600px;
+    margin-top: 220px;
+}
+.about__title {
+    font-family: "Banny Bold Round";
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about__title::before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 5px;
+    background: #e8c300;
+    border-radius: 50px;
+    margin-top: 60px;
+    margin-left: 65px;
+}
+
+.about__subtitle {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about__description {
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    text-align: center;
+}
+
+.about__img {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.about__square {
+    position: relative;
+    left: 83%;
+    top: 110px;
+}

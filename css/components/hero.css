@@ -7,6 +7,7 @@
 
 .hero__items {
     text-align: center;
+    margin-top: 50px;
 }
 .hero__time {
     position: absolute;
@@ -16,6 +17,8 @@
     text-align: center;
     color: #ffffff;
     transform: rotate(-90deg);
+    left: 0;
+    top: 50%;
 }
 
 .hero__subtitle {
@@ -31,7 +34,6 @@
     font-family: "Banny Bold Round";
     font-size: 96px;
     line-height: 0px;
-    display: flex;
     align-items: center;
     text-align: center;
     text-transform: uppercase;
@@ -57,4 +59,8 @@
 .hero__btn:hover {
     background: #E8C300;
     border: #E8C300;
+}
+
+.hero__social {
+    flex-direction: column;
 }
