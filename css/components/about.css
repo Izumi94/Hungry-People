@@ -50,12 +50,12 @@
 
 .about__img {
     position: absolute;
-    margin-left: 40px;
+    margin-left: 35px;
     margin-top: 50px;
 }
 
 .about__square {
     position: relative;
-    left: 80%;
+    left: 75%;
     top: 110px;
 }
