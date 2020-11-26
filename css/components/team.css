@@ -1,23 +1,37 @@
-.about {
+.team {
+    background: url("../../images/team-bg.png") no-repeat;
+    background-size: cover;
     min-height: 675px;
-    align-items: center;
 }
 
-.about__text {
-    max-width: 600px;
-    margin-top: 220px;
+.team__ttl {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5em;
+    color: #ffffff;
+    padding-top: 45px;
 }
-.about__title {
+
+.team__text {
+    max-width: 600px;
+    margin-top: 160px;
+    margin-left: 250px;
+}
+.team__title {
     font-family: "Banny Bold Round";
     font-size: 36px;
     line-height: 48px;
     text-align: center;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     margin-bottom: 40px;
 }
 
-.about__title::before {
+.team__title::before {
     position: absolute;
     content: "";
     width: 60px;
@@ -28,34 +42,34 @@
     margin-left: 65px;
 }
 
-.about__subtitle {
+.team__subtitle {
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 28px;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     margin-bottom: 20px;
 }
 
-.about__description {
+.team__description {
     font-family: Open Sans;
     font-style: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
 }
 
-.about__img {
+.team__img {
     position: absolute;
-    margin-left: 40px;
-    margin-top: 50px;
+    margin-left: 65px;
+    margin-top: 5px;
 }
 
-.about__square {
+.team__square {
     position: relative;
-    left: 80%;
-    top: 110px;
+    right: 25%;
+    top: 80px;
 }

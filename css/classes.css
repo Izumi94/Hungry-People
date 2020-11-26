@@ -6,3 +6,11 @@
     max-width: 1280px;
     margin: auto;
 }
+
+.col-6 {
+    max-width: 50;
+}
+
+.col-4 {
+	width: 33.33%;
+}
