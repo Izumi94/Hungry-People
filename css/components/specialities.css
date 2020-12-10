@@ -1,0 +1,63 @@
+.specialities {
+    background: url("../../images/team-bg.png") no-repeat;
+    background-size: cover;
+    min-height: 675px;
+}
+
+.specialities__ttl {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5em;
+    color: #ffffff;
+    padding-top: 45px;
+}
+
+.specialities__text {
+    max-width: 600px;
+    margin-top: 160px;
+    margin-left: 250px;
+}
+.specialities__title {
+    font-family: "Banny Bold Round";
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.specialities__title::before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 5px;
+    background: #e8c300;
+    border-radius: 50px;
+    margin-top: 60px;
+    margin-left: 65px;
+}
+
+.specialities__subtitle {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.specialities__description {
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: center;
+}

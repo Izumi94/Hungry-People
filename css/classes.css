@@ -18,3 +18,8 @@
 .col-3 {
     width: 25%;
 }
+
+.center {
+    align-items: center;
+    justify-content: center;
+}

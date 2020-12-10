@@ -1,0 +1,72 @@
+.booking {
+    min-height: 675px;
+    align-items: center;
+}
+
+.booking__title {
+    font-family: "Banny Bold Round";
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 125px;
+}
+
+.booking__title::before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 5px;
+    background: #e8c300;
+    border-radius: 50px;
+    margin-top: 60px;
+    margin-left: -15px;
+}
+
+.booking__columns {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.booking__input {
+    padding-left: 15px;
+    margin: 10px 5px 0 0;
+    width: 277px;
+    height: 60px;
+    background: #E5E5E5;
+    border-radius: 5px;
+    border: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-indent: 20px;
+    color: rgba(51, 51, 51, 0.5);
+}
+
+.booking__img {
+    margin-left: 35px;
+    margin-top: 50px;
+}
+
+.booking__square {
+    left: 75%;
+    top: 110px;
+}
+
+.booking__btn {
+    margin-top: 10px;
+    margin-left: 22px;
+    background: #e8c300;
+    border-radius: 5px;
+    border: none;
+    width: 597px;
+    height: 60px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    color: #ffffff;
+}

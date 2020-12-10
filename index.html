@@ -24,7 +24,7 @@
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#team" class="nav__link">Team</a></li>
                         <li class="nav__item"><a href="#booking" class="nav__link">Booking</a></li>
-                        <img src="./images/logo.svg" alt="" class="header__logo">
+                        <img id="wheel" src="./images/logo.svg" alt="" class="header__logo">
                         <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
                         <li class="nav__item"><a href="#gallery" class="nav__link">Gallery</a></li>
                         <li class="nav__item"><a href="#event" class="nav__link">Events</a></li>
@@ -86,7 +86,7 @@
             <div class="team__ttl">
                 <h3>OUR TEAM</h3>
             </div>
-            <div class="team__content flex">
+            <div class="team__items flex">
                 <div class="col-6">
                     <div class="about__images">
                         <img class="team__img" src="./images/chef.png" alt="">
@@ -110,6 +110,58 @@
         </div>
     </section>
 
+    <section class="booking">
+        <div class="container">
+            <div class="booking__items flex">
+                <div class="col-6 center">
+                    <div class="booking__title">
+                        <h3 class="booking__ttl">BOOK A TABLE</h3>
+                    </div>
+                    <div class="booking__columns">
+                        <input type="text" class="booking__input" placeholder="Name">
+                        <input type="text" class="booking__input" placeholder="Email">
+                        <input type="text" class="booking__input" placeholder="Phone">
+                        <input type="text" class="booking__input" placeholder="People">
+                        <input type="text" class="booking__input" placeholder="Date (mm/dd)">
+                        <input type="text" class="booking__input" placeholder="Time">
+                    </div>
+                    <button class="booking__btn">BOOK NOW</button>
+                </div>
+                <div class="col-6">
+                    <div class="booking__images">
+                        <img class="booking__img" src="./images/booking-img.png" alt="">
+                        <!-- <img class="booking__square" src="./images/square.png" alt=""> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="specialities">
+        <div class="container">
+            <div class="col-6 specialities__slider">
+                <img class="specialities__img" src="img/features/cake.png" alt="">
+                <img class="specialities__img" src="img/features/cake.png" alt="">
+                <img class="specialities__img" src="img/features/cake.png" alt="">
+            </div>
+            <span class="features__square square__yellow wow fadeInLeftBig"></span>
+            <div class="col-6">
+                <div class="specialities__text">
+                    <h3 class="specialities__title">MASTER CHEF</h3>
+                    <p class="specialities__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+                        velit
+                        maximus, molestie est a, tempor magna</p>
+                    <p class="specialities__description">Integer ullamcorper neque eu purus euismod, ac faucibus mauris
+                        posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio
+                        vehicula
+                        eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra.
+                        Nulla
+                        facilisis semper laoreet.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="gallery" id="gallery">
         <div class="gallery__row">
             <div class="gallery__items flex">
@@ -128,6 +180,20 @@
             </div>
         </div>
     </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__item">
+                <p class="footer__description">© Copyright <span class="bold">Mindblister</span> 2019</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/sideBarTab.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/index.js"></script>
 
 </body>
 
