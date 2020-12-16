@@ -1,0 +1,85 @@
+.menu__title {
+    margin-top: 100px;
+    font-family: "Banny Bold Round";
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.menu__title::before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 5px;
+    background: #e8c300;
+    border-radius: 50px;
+    margin-top: 60px;
+    margin-left: 115px;
+}
+
+.menu__description {
+    margin: auto;
+    padding-top: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    max-width: 566px;
+}
+
+.menu__nav {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.menu__items {
+    justify-content: center;
+}
+.menu__link {
+    position: relative;
+    padding: 0 35px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: #333333;
+    border: none;
+    outline: none;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.menu__link::after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    left: 85px;
+    width: 50px;
+    height: 0px;
+    border: 1px solid rgba(51, 51, 51, 0.2);
+    transform: rotate(90deg);
+}
+
+.menu__list {
+    margin: 50px 0 100px 100px;
+}
+
+.menu__item {
+    padding-top: 30px;
+    font-family: 'Banny Bold Round';
+    font-size: 18px;
+    line-height: 10px;
+    color: #333333;
+}
+
+.menu__item-description {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #C4C4C4;
+}
