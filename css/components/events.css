@@ -28,21 +28,56 @@
     top: 75px;
 }
 
+.left__text {
+    position: relative;
+    left: 310px;
+    bottom: 205px;
+    width: 478px;
+    height: 85px;
+    background-color: #000000;
+    font-family: 'Banny Bold Round';
+    font-size: 24px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-indent: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transform: rotate(90deg);
+}
+
 .right__img {
     position: absolute;
-    margin-left: 200px;
+    margin-left: 150px;
     margin-top: 5px;
 }
 
 .right__square {
     position: relative;
     margin-left: 35px;
-    left: 100%;
+    left: 87%;
     top: 70px;
 }
 
+.right__text {
+    position: relative;
+    bottom: 205px;
+    width: 478px;
+    height: 85px;
+    background-color: #000000;
+    font-family: 'Banny Bold Round';
+    font-size: 24px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-indent: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+}
+
 .events__contacts {
-    margin-top: 115px;
+    margin-top: 35px;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
