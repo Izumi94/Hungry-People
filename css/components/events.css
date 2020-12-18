@@ -1,0 +1,54 @@
+.events {
+    background: url("../../images/events-bg.png") no-repeat;
+    background-size: cover;
+    min-height: 675px;
+}
+
+.events__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5em;
+    color: #ffffff;
+    padding-top: 45px;
+}
+
+.left__img {
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 5px;
+}
+
+.left__square {
+    position: relative;
+    right: 25%;
+    top: 75px;
+}
+
+.right__img {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 5px;
+}
+
+.right__square {
+    position: relative;
+    margin-left: 35px;
+    left: 100%;
+    top: 70px;
+}
+
+.events__contacts {
+    margin-top: 115px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
