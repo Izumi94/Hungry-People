@@ -1,0 +1,85 @@
+.contact {
+}
+
+.contact__title {
+    margin-top: 100px;
+    font-family: "Banny Bold Round";
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    border-radius: 5px;
+}
+
+.contact__title::before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 5px;
+    background: #e8c300;
+    border-radius: 50px;
+    margin-top: 60px;
+    margin-left: 65px;
+}
+
+.contact__subtitle {
+    padding-top: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.contact__input-row {
+    box-sizing: border-box;
+}
+
+.contact__input {
+    width: 420px;
+    height: 60px;
+    margin: 50px 0 0 10px;
+    padding-left: 15px;
+    background: #E5E5E5;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.contact__input-message {
+    width: 1270px;
+    height: 120px;
+    margin: 10px 0 0 10px;
+    padding: 0 0 60px 15px;
+    background: #E5E5E5;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.contact__button {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    background: #E8C300;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 60px;
+    width: 640px;
+    margin: 10px 0 100px 35px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.contact__info {
+    margin-top: 35px;
+    margin-left: 15px;
+}
