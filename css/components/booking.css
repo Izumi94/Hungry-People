@@ -49,13 +49,13 @@
 
 .booking__img {
     position: absolute;
-    margin-left: -170px;
+    margin-left: -210px;
     margin-top: 50px;
 }
 
 .booking__square {
     position: relative;
-    left: 25%;
+    left: 18%;
     top: 100px;
 }
 
