@@ -1,6 +1,7 @@
 @import './base.css';
 @import './classes.css';
 @import './fonts.css';
+@import './media.css';
 
 @import './components/header.css';
 @import './components/hero.css';
